@@ -1,0 +1,75 @@
+/* Boton */
+.boton {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+/* Boton color azul */
+.boton {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+.boton:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+.boton:focus, .boton.focus {
+  box-shadow: 0 0 0 0.2rem rgba(9, 142, 230, 0.5);
+}
+.boton.disabled, .boton:disabled {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+.boton:not(:disabled):not(.disabled):active, .boton:not(:disabled):not(.disabled).active,
+.show > .boton.dropdown-toggle {
+  color: #fff;
+  background-color: #0062cc;
+  border-color: #005cbf;
+}
+.boton:not(:disabled):not(.disabled):active:focus, .boton:not(:disabled):not(.disabled).active:focus,
+.show > .boton.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+/* Boton activo gris */
+.boton-activo {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+.boton-activo:hover {
+  color: #fff;
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+.boton-activo:focus, .boton-activo.focus {
+  box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
+}
+.boton-activo.disabled, .boton-activo:disabled {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+.boton-activo:not(:disabled):not(.disabled):active, .boton-activo:not(:disabled):not(.disabled).active,
+.show > .boton-activo.dropdown-toggle {
+  color: #fff;
+  background-color: #545b62;
+  border-color: #4e555b;
+}
+.boton-activo:not(:disabled):not(.disabled):active:focus, .boton-activo:not(:disabled):not(.disabled).active:focus,
+.show > .boton-activo.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
+}
+
+
+/* Boton activo rojo */
+/* Boton color rojo */
